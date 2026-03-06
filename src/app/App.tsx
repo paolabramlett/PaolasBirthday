@@ -35,12 +35,12 @@ export default function App() {
                 🎉
               </motion.div>
               <h1 className="text-4xl sm:text-6xl lg:text-7xl mb-4 bg-gradient-to-r from-[#7FB0E8] to-[#5A9AD6] bg-clip-text text-transparent px-4">
-                Paola cumple años — y este año lo celebramos TODO el día.
+                ¡Paola cumple 34 años!... y este año lo celebramos TODO el día.
               </h1>
             </div>
 
             <div className="text-xl sm:text-2xl text-gray-600 mb-12">
-              27 de Marzo 2026 · Puerto Escondido
+              27 de Marzo 2026 • Puerto Escondido
             </div>
 
             <CountdownTimer />
@@ -67,20 +67,20 @@ export default function App() {
 
         <EventCard
           title="Desayuno"
-          subtitle="Empezamos el día juntos"
-          time="9:30 AM"
+          subtitle="Empezamos el día juntos ❤️"
+          time="8:30 AM"
           location="Oh la la !"
           address="Benito Juárez, Rinconada, 71983 Puerto Escondido, Oaxaca"
           icon={Coffee}
-          mapUrl="https://www.google.com/maps/search/?api=1&query=Oh+la+la+Benito+Juárez+Rinconada+71983+Puerto+Escondido+Oaxaca"
+          mapUrl="https://maps.app.goo.gl/Vf1q64vtnFMDopF59"
         />
       </section>
 
       {/* Fun Fact 1 */}
       <section className="py-12 px-4 sm:px-6">
         <FunFactCard
-          question="¿Cuál es mi desayuno favorito?"
-          answer="Si adivinaste algo con pan dulce o café… probablemente vas bien."
+          question="¿Cuáles son mis dos artistas favoritos?"
+          answer="Arctic Monekys & Lykke Li"
         />
       </section>
 
@@ -94,27 +94,27 @@ export default function App() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl sm:text-4xl mb-2 bg-gradient-to-r from-[#7FB0E8] to-[#5A9AD6] bg-clip-text text-transparent">
-            Lunch
+            Comida
           </h2>
           <p className="text-lg text-gray-600">Seguimos celebrando</p>
         </motion.div>
 
         <EventCard
-          title="Lunch"
+          title="Comida"
           subtitle="Una pausa deliciosa"
           time="2:30 PM"
           location="Restaurant Sotavento"
           address="C. Sexta Sur 3, Sector Hidalgo, 71983 Puerto Escondido, Oax."
           icon={UtensilsCrossed}
-          mapUrl="https://www.google.com/maps/search/?api=1&query=Restaurant+Sotavento+C.+Sexta+Sur+3+Sector+Hidalgo+71983+Puerto+Escondido"
+          mapUrl="https://maps.app.goo.gl/LckK4UBVzriBDq95A"
         />
       </section>
 
       {/* Fun Fact 2 */}
       <section className="py-12 px-4 sm:px-6">
         <FunFactCard
-          question="¿Cuántos países he visitado?"
-          answer="Más de los que imaginabas."
+          question="¿Qué ciudad siempre ha sido mi sueño conocer?"
+          answer="¡Londres! 🇬🇧 ¿Adivinaste?"
         />
       </section>
 
@@ -128,27 +128,27 @@ export default function App() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl sm:text-4xl mb-2 bg-gradient-to-r from-[#7FB0E8] to-[#5A9AD6] bg-clip-text text-transparent">
-            Dinner
+            Cena
           </h2>
           <p className="text-lg text-gray-600">Cerramos el día celebrando</p>
         </motion.div>
 
         <EventCard
-          title="Dinner"
-          subtitle="Gran final del día"
-          time="8:00 PM"
+          title="Cena"
+          subtitle="Tacos de la Playita 🌮"
+          time="7:00 PM"
           location="Chez La Mamma"
           address="Cerrada de Pargos 97, Rinconada, 71983 Puerto Escondido, Oax."
           icon={Pizza}
-          mapUrl="https://www.google.com/maps/search/?api=1&query=Chez+La+Mamma+Cerrada+de+Pargos+97+Rinconada+71983+Puerto+Escondido"
+          mapUrl="https://maps.app.goo.gl/Jzfw9cnW3AWVM26h8"
         />
       </section>
 
       {/* Fun Fact 3 */}
       <section className="py-12 px-4 sm:px-6">
         <FunFactCard
-          question="¿Qué canción no puede faltar en una fiesta para mí?"
-          answer="Esa que te hace bailar aunque digas que no bailas 💃"
+          question="¿Qué quería der de grande cuando era chica?"
+          answer="Escritora 📚 solo los grandes conocedores se sabían esa"
         />
       </section>
 
