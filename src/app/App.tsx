@@ -7,7 +7,7 @@ import { FloatingShapes } from './components/FloatingShapes';
 import { ScrollIndicator } from './components/ScrollIndicator';
 import { GiftSection } from './components/GiftSection';
 import { CTASection } from './components/CTASection';
-import { Coffee, UtensilsCrossed, Pizza } from 'lucide-react';
+import { Coffee, UtensilsCrossed, TreePalm } from 'lucide-react';
 import { motion } from 'motion/react';
 
 export default function App() {
@@ -34,16 +34,18 @@ export default function App() {
               >
                 🎉
               </motion.div>
-              <h1 className="text-4xl sm:text-6xl lg:text-7xl mb-4 bg-gradient-to-r from-[#7FB0E8] to-[#5A9AD6] bg-clip-text text-transparent px-4">
-                ¡Paola cumple 34 años!... y este año lo celebramos TODO el día.
+              <h1 className="text-4xl sm:text-6xl lg:text-7xl mb-4 bg-gradient-to-r from-[#9368B0] to-[#7D4E9F] bg-clip-text text-transparent px-4">
+                ¡Paola cumple 34 años!
               </h1>
             </div>
 
             <div className="text-xl sm:text-2xl text-gray-600 mb-12">
-              27 de Marzo 2026 • Puerto Escondido
+             <strong> ... y este año lo celebramos TODO el día. </strong>
             </div>
 
-            <CountdownTimer />
+            <div className="flex justify-center">
+              <CountdownTimer />
+            </div>
           </motion.div>
         </div>
 
@@ -59,7 +61,7 @@ export default function App() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl mb-2 bg-gradient-to-r from-[#7FB0E8] to-[#5A9AD6] bg-clip-text text-transparent">
+          <h2 className="text-3xl sm:text-4xl mb-2 bg-gradient-to-r from-[#9368B0] to-[#7D4E9F] bg-clip-text text-transparent">
             Desayuno
           </h2>
           <p className="text-lg text-gray-600">Primera parada del día</p>
@@ -93,7 +95,7 @@ export default function App() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl mb-2 bg-gradient-to-r from-[#7FB0E8] to-[#5A9AD6] bg-clip-text text-transparent">
+          <h2 className="text-3xl sm:text-4xl mb-2 bg-gradient-to-r from-[#9368B0] to-[#7D4E9F] bg-clip-text text-transparent">
             Comida
           </h2>
           <p className="text-lg text-gray-600">Seguimos celebrando</p>
@@ -101,7 +103,7 @@ export default function App() {
 
         <EventCard
           title="Comida"
-          subtitle="Una pausa deliciosa"
+          subtitle="Una pausa deliciosa en un restaurant riquísimo"
           time="2:30 PM"
           location="Restaurant Sotavento"
           address="C. Sexta Sur 3, Sector Hidalgo, 71983 Puerto Escondido, Oax."
@@ -127,7 +129,7 @@ export default function App() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl mb-2 bg-gradient-to-r from-[#7FB0E8] to-[#5A9AD6] bg-clip-text text-transparent">
+          <h2 className="text-3xl sm:text-4xl mb-2 bg-gradient-to-r from-[#9368B0] to-[#7D4E9F] bg-clip-text text-transparent">
             Cena
           </h2>
           <p className="text-lg text-gray-600">Cerramos el día celebrando</p>
@@ -139,7 +141,7 @@ export default function App() {
           time="7:00 PM"
           location="Chez La Mamma"
           address="Cerrada de Pargos 97, Rinconada, 71983 Puerto Escondido, Oax."
-          icon={Pizza}
+          icon={TreePalm}
           mapUrl="https://maps.app.goo.gl/Jzfw9cnW3AWVM26h8"
         />
       </section>

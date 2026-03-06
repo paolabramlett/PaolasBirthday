@@ -35,8 +35,8 @@ export function CountdownTimer() {
 
   const TimeUnit = ({ value, label }: { value: number; label: string }) => (
     <div className="flex flex-col items-center">
-      <div className="bg-white/90 backdrop-blur-sm rounded-2xl px-4 py-3 sm:px-6 sm:py-4 shadow-lg border border-[#7FB0E8]/20 min-w-[70px] sm:min-w-[90px]">
-        <div className="text-2xl sm:text-4xl font-bold bg-gradient-to-br from-[#7FB0E8] to-[#5A9AD6] bg-clip-text text-transparent">
+      <div className="bg-white/90 backdrop-blur-sm rounded-2xl px-4 py-3 sm:px-6 sm:py-4 shadow-lg border border-[#9368B0]/20 min-w-[70px] sm:min-w-[90px]">
+        <div className="text-2xl sm:text-4xl font-bold bg-gradient-to-br from-[#9368B0] to-[#7D4E9F] bg-clip-text text-transparent">
           {value.toString().padStart(2, '0')}
         </div>
       </div>

@@ -10,14 +10,14 @@ export function ScrollIndicator() {
       onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
     >
       <span className="text-sm text-gray-600">Desliza para explorar</span>
-      <div className="w-6 h-10 rounded-full border-2 border-[#7FB0E8] flex items-start justify-center p-1">
+      <div className="w-6 h-10 rounded-full border-2 border-[#9368B0] flex items-start justify-center p-1">
         <motion.div
-          className="w-1.5 h-1.5 bg-[#7FB0E8] rounded-full"
+          className="w-1.5 h-1.5 bg-[#9368B0] rounded-full"
           animate={{ y: [0, 16, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
         />
       </div>
-      <ChevronDown className="w-5 h-5 text-[#7FB0E8]" />
+      <ChevronDown className="w-5 h-5 text-[#9368B0]" />
     </motion.div>
   );
 }

@@ -55,7 +55,7 @@ export function CTASection() {
           x: randomInRange(0.1, 0.9),
           y: Math.random() - 0.2,
         },
-        colors: ['#7FB0E8', '#FED805', '#5A9AD6', '#FFE666'],
+        colors: ['#9368B0', '#FED805', '#7D4E9F', '#FFE666'],
       });
     }, 250);
   };
@@ -67,7 +67,7 @@ export function CTASection() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.6 }}
-      className="py-24 px-4 sm:px-6 relative overflow-hidden bg-gradient-to-br from-[#7FB0E8]/10 via-white to-[#FED805]/10"
+      className="py-24 px-4 sm:px-6 relative overflow-hidden bg-gradient-to-br from-[#9368B0]/10 via-white to-[#FED805]/10"
     >
       <div className="absolute inset-0 pointer-events-none">
         {[...Array(20)].map((_, i) => (
@@ -90,9 +90,9 @@ export function CTASection() {
             }}
           >
             {i % 4 === 0 && <PartyPopper className="w-6 h-6 text-[#FED805]" />}
-            {i % 4 === 1 && <Heart className="w-5 h-5 text-[#7FB0E8]" />}
+            {i % 4 === 1 && <Heart className="w-5 h-5 text-[#9368B0]" />}
             {i % 4 === 2 && <Star className="w-4 h-4 text-[#FED805]" />}
-            {i % 4 === 3 && <PartyPopper className="w-5 h-5 text-[#7FB0E8]" />}
+            {i % 4 === 3 && <PartyPopper className="w-5 h-5 text-[#9368B0]" />}
           </motion.div>
         ))}
       </div>
@@ -106,7 +106,7 @@ export function CTASection() {
           <PartyPopper className="w-16 h-16 text-[#FED805]" />
         </motion.div>
 
-        <h2 className="text-4xl sm:text-6xl mb-6 bg-gradient-to-r from-[#7FB0E8] to-[#5A9AD6] bg-clip-text text-transparent">
+        <h2 className="text-4xl sm:text-6xl mb-6 bg-gradient-to-r from-[#9368B0] to-[#7D4E9F] bg-clip-text text-transparent">
           ¿Vienes a celebrar conmigo?
         </h2>
 
@@ -129,7 +129,7 @@ export function CTASection() {
 
         <div className="mt-12 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
           <div className="flex items-center gap-2">
-            <Heart className="w-4 h-4 text-[#7FB0E8]" />
+            <Heart className="w-4 h-4 text-[#9368B0]" />
             <span>3 eventos especiales</span>
           </div>
           <div className="flex items-center gap-2">
@@ -137,7 +137,7 @@ export function CTASection() {
             <span>Un día completo de celebración</span>
           </div>
           <div className="flex items-center gap-2">
-            <PartyPopper className="w-4 h-4 text-[#7FB0E8]" />
+            <PartyPopper className="w-4 h-4 text-[#9368B0]" />
             <span>¡Te esperamos!</span>
           </div>
         </div>

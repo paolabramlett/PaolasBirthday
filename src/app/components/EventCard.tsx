@@ -21,7 +21,7 @@ export function EventCard({ title, subtitle, time, location, address, icon: Icon
       className="max-w-2xl mx-auto"
     >
       <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-        <div className="bg-gradient-to-br from-[#7FB0E8] to-[#5A9AD6] p-8 text-white relative overflow-hidden">
+        <div className="bg-gradient-to-br from-[#9368B0] to-[#7D4E9F] p-8 text-white relative overflow-hidden">
           <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
           <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full translate-y-1/2 -translate-x-1/2"></div>
           
@@ -46,8 +46,8 @@ export function EventCard({ title, subtitle, time, location, address, icon: Icon
           </div>
 
           <div className="flex items-start gap-4">
-            <div className="bg-[#7FB0E8]/10 p-3 rounded-xl">
-              <MapPin className="w-6 h-6 text-[#7FB0E8]" />
+            <div className="bg-[#9368B0]/10 p-3 rounded-xl">
+              <MapPin className="w-6 h-6 text-[#9368B0]" />
             </div>
             <div>
               <div className="text-sm text-gray-500">Lugar</div>
@@ -60,7 +60,7 @@ export function EventCard({ title, subtitle, time, location, address, icon: Icon
             href={mapUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="block w-full bg-gradient-to-r from-[#7FB0E8] to-[#5A9AD6] text-white py-3 px-6 rounded-xl hover:shadow-lg transition-all duration-300 text-center hover:scale-105"
+            className="block w-full bg-gradient-to-r from-[#9368B0] to-[#7D4E9F] text-white py-3 px-6 rounded-xl hover:shadow-lg transition-all duration-300 text-center hover:scale-105"
           >
             Ver en Google Maps
           </a>

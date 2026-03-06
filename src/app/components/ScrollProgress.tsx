@@ -40,7 +40,7 @@ export function ScrollProgress() {
 
   return (
     <div className="fixed left-6 top-1/2 -translate-y-1/2 z-40 hidden lg:block">
-      <div className="bg-white/90 backdrop-blur-sm rounded-full p-3 shadow-lg border border-[#7FB0E8]/20">
+      <div className="bg-white/90 backdrop-blur-sm rounded-full p-3 shadow-lg border border-[#9368B0]/20">
         <div className="flex flex-col gap-4">
           {sections.map((section) => {
             const Icon = section.icon;
@@ -52,8 +52,8 @@ export function ScrollProgress() {
                 onClick={() => scrollToSection(section.id)}
                 className={`p-2 rounded-full transition-all duration-300 group relative ${
                   isActive
-                    ? 'bg-gradient-to-br from-[#7FB0E8] to-[#5A9AD6] text-white scale-110'
-                    : 'text-gray-400 hover:text-[#7FB0E8] hover:bg-gray-50'
+                    ? 'bg-gradient-to-br from-[#9368B0] to-[#7D4E9F] text-white scale-110'
+                    : 'text-gray-400 hover:text-[#9368B0] hover:bg-gray-50'
                 }`}
                 aria-label={section.label}
               >

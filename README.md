@@ -1,7 +1,7 @@
 
-  # Create this
+  # Paola's Birthday Invitation
 
-  This is a code bundle for Create this. The original project is available at https://www.figma.com/design/YSOfbMSAENyRClEvFrWVPp/Create-this.
+  This is a code bundle for Paola's Birthday Invitation. The original project is available at https://www.figma.com/design/YSOfbMSAENyRClEvFrWVPp/Paola-s-Birthday-Invitation.
 
   ## Running the code
 

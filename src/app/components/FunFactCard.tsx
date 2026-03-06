@@ -31,7 +31,7 @@ export function FunFactCard({ question, answer }: FunFactCardProps) {
         {!isRevealed ? (
           <button
             onClick={() => setIsRevealed(true)}
-            className="w-full bg-gradient-to-r from-[#7FB0E8] to-[#5A9AD6] text-white py-4 px-6 rounded-xl hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2 group hover:scale-105"
+            className="w-full bg-gradient-to-r from-[#9368B0] to-[#7D4E9F] text-white py-4 px-6 rounded-xl hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2 group hover:scale-105"
           >
             <span>Revelar respuesta</span>
             <ChevronDown className="w-5 h-5 group-hover:translate-y-1 transition-transform" />
@@ -41,7 +41,7 @@ export function FunFactCard({ question, answer }: FunFactCardProps) {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
-            className="bg-gradient-to-br from-[#7FB0E8] to-[#5A9AD6] rounded-2xl p-6 text-white shadow-lg"
+            className="bg-gradient-to-br from-[#9368B0] to-[#7D4E9F] rounded-2xl p-6 text-white shadow-lg"
           >
             <div className="text-sm opacity-90 mb-2">Respuesta:</div>
             <p className="text-lg">{answer}</p>

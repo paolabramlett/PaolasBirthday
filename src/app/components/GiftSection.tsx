@@ -19,12 +19,12 @@ export function GiftSection() {
           transition={{ duration: 2, repeat: Infinity, repeatDelay: 3 }}
           className="inline-block mb-6"
         >
-          <div className="bg-gradient-to-br from-[#7FB0E8] to-[#5A9AD6] w-20 h-20 rounded-2xl flex items-center justify-center shadow-xl">
+          <div className="bg-gradient-to-br from-[#9368B0] to-[#7D4E9F] w-20 h-20 rounded-2xl flex items-center justify-center shadow-xl">
             <Gift className="w-10 h-10 text-white" />
           </div>
         </motion.div>
 
-        <h2 className="text-4xl sm:text-5xl mb-4 bg-gradient-to-r from-[#7FB0E8] to-[#5A9AD6] bg-clip-text text-transparent">
+        <h2 className="text-4xl sm:text-5xl mb-4 bg-gradient-to-r from-[#9368B0] to-[#7D4E9F] bg-clip-text text-transparent">
           Mesa de Regalos
         </h2>
 
@@ -43,7 +43,7 @@ export function GiftSection() {
             href="https://www.amazon.com.mx/hz/wishlist/ls/2IWOZXUIZSWB?ref_=wl_share"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-gradient-to-r from-[#7FB0E8] to-[#5A9AD6] text-white px-8 py-4 rounded-full text-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 group"
+            className="inline-flex items-center gap-3 bg-gradient-to-r from-[#9368B0] to-[#7D4E9F] text-white px-8 py-4 rounded-full text-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 group"
           >
             <span>Ver Wishlist</span>
             <ExternalLink className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
