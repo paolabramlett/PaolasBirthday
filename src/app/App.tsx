@@ -1,5 +1,4 @@
 import { CountdownTimer } from './components/CountdownTimer';
-import { MusicToggle } from './components/MusicToggle';
 import { ScrollProgress } from './components/ScrollProgress';
 import { EventCard } from './components/EventCard';
 import { FunFactCard } from './components/FunFactCard';
@@ -9,11 +8,31 @@ import { GiftSection } from './components/GiftSection';
 import { CTASection } from './components/CTASection';
 import { Coffee, UtensilsCrossed, TreePalm } from 'lucide-react';
 import { motion } from 'motion/react';
+import { useEffect, useRef } from 'react';
 
 export default function App() {
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    // Initialize background music
+    // Note: Auto-playing audio may be blocked by browsers. User interaction might be required.
+    if (audioRef.current) {
+      audioRef.current.volume = 0.3; // Set to 30% volume
+      audioRef.current.play().catch(error => {
+        console.log('Auto-play prevented:', error);
+      });
+    }
+  }, []);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
-      <MusicToggle />
+      {/* Background Music - Replace src with your audio file */}
+      {/* To use this: Download the audio from YouTube and add it to /public folder */}
+      {/* Then update src to "/your-audio-file.mp3" */}
+      <audio ref={audioRef} loop>
+        <source src="/birthday-music.mp3" type="audio/mpeg" />
+      </audio>
+
       <ScrollProgress />
 
       {/* Hero Section */}
